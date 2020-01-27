@@ -1,0 +1,18 @@
+<a href="" class="dropdown-toggle" data-toggle="dropdown">
+  <i class="fa fa-bell-o"></i>
+  <span class="label label-warning" ng-show="!!notificaciones.length">{{notificaciones.length}}</span>
+</a>
+<ul class="dropdown-menu">
+  <li class="header">Tienes {{notificaciones.length}} notificaciones</li>
+  <li>
+    <!-- inner menu: contains the actual data -->
+    <ul class="menu">
+      <li ng-repeat="n in notificaciones">
+        <a href="">
+          <i class="fa {{n.icono}} text-aqua"></i> {{n.notificacion | mensajeCorto}}
+        </a>
+      </li>
+    </ul>
+  </li>
+  <li class="footer"><a href="">View all</a></li>
+</ul>
