@@ -9,10 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mjcrsis22/ng-facturacion.git"
+    "url": "https://github.com/mjcrsis22/ng-facturacion.git"
   },
   "keywords": [
     "angularjs",
+    "admin-lte",
     "node",
     "express",
     "mongodb"
@@ -26,6 +27,9 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.8.9"
+    "admin-lte": "^3.0",
+    "angular": "1.2.32",
+    "angular-route": "1.2.32",
+    "animate.css": "3.7.2"
   }
 }

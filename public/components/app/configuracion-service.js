@@ -6,7 +6,7 @@ app.factory('Configuracion', ['$http', '$q', function ($http, $q) {
         cargar: function () {
             var d = $q.defer();
 
-            $http.get('config.json')
+            $http.get('./components/app/config.json')
                 .success(function (data) {
                     self.config = data;
                     d.resolve();

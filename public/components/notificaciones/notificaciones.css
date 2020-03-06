@@ -1,0 +1,16 @@
+
+      .dropdown-item .fas {
+        width: 5%;
+    }
+    .dropdown-item .fas+span {
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 70%;
+    }
+    .dropdown-item .fas+span+span {
+        display: inline-block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 15%;
+    }
